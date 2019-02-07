@@ -12,13 +12,13 @@ public class first_test_java {
 	public void acheterDesAnimaux() {
 		
 		//renseigne l'emplacement du driver
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\formation\\Desktop\\Autom2_Module3\\WebDriver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\formation\\Desktop\\SUT\\geckodriver.exe");
 		
 		//instanciation de WebDriver
 		WebDriver driver = new FirefoxDriver();
 		
 		//navigation
-		driver.get("http://localhost:8180/jpetstore");
+		driver.get("http://localhost:8090/jpetstore");
 		
 		//trouver un élément sur la page et entrer dans JpetStore
 		driver.findElement(By.xpath("//*[@href=\"actions/Catalog.action\"]")).click();
