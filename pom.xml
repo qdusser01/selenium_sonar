@@ -20,7 +20,7 @@
 			<version>3.14.0</version>
 		</dependency>
 	</dependencies>
-	
+	<build>
 	<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -50,5 +50,5 @@
 				</executions>
 			</plugin>
 			</plugins>
-
+</build>
 </project>
