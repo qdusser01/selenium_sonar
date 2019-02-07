@@ -49,5 +49,6 @@
 					</execution>
 				</executions>
 			</plugin>
+			</plugins>
 
 </project>
